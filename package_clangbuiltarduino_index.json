@@ -1,0 +1,216 @@
+{
+  "packages": [
+    {
+      "name": "ClangBuiltArduino",
+      "maintainer": "ClangBuiltArduino",
+      "websiteURL": "https://github.com/ClangBuiltArduino",
+      "help": {
+        "online": "https://github.com/ClangBuiltArduino"
+      },
+      "platforms": [
+        {
+          "name": "ClangBuiltArduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.0.0-05022025/cba-avr-1.0.0.tar.bz2",
+          "archiveFileName": "cba-avr-1.0.0.tar.bz2",
+          "checksum": "SHA-256:b65af74267ab21fc7b605b55b3e909317f36180eb76df177a6b45169228f7b3a",
+          "size": "7139254",
+          "boards": [
+            {"name": "Arduino Yún"},
+            {"name": "Arduino Uno"},
+            {"name": "Arduino Uno WiFi"},
+            {"name": "Arduino Diecimila"},
+            {"name": "Arduino Nano"},
+            {"name": "Arduino Mega"},
+            {"name": "Arduino MegaADK"},
+            {"name": "Arduino Leonardo"},
+            {"name": "Arduino Leonardo Ethernet"},
+            {"name": "Arduino Micro"},
+            {"name": "Arduino Esplora"},
+            {"name": "Arduino Mini"},
+            {"name": "Arduino Ethernet"},
+            {"name": "Arduino Fio"},
+            {"name": "Arduino BT"},
+            {"name": "Arduino LilyPadUSB"},
+            {"name": "Arduino Lilypad"},
+            {"name": "Arduino Pro"},
+            {"name": "Arduino ATMegaNG"},
+            {"name": "Arduino Robot Control"},
+            {"name": "Arduino Robot Motor"},
+            {"name": "Arduino Gemma"},
+            {"name": "Adafruit Circuit Playground"},
+            {"name": "Arduino Yún Mini"},
+            {"name": "Arduino Industrial 101"},
+            {"name": "Linino One"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvm",
+              "version": "19.1.7-04022025"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-sysroot",
+              "version": "04022025"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-bfd",
+              "version": "2.43.1-04022025"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "cba-llvm",
+          "version": "19.1.7-04022025",
+          "systems": [
+            {
+              "size": "74439783",
+              "checksum": "SHA-256:c2e5bba743daceff2a13ea0433a45198efbe7d4bbc63d45609ec7870b31b7738",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-llvm-19.1.7-04022025-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-19.1.7-04022025/cba-llvm-19.1.7-04022025-amd64-linux.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-avr-sysroot",
+          "version": "04022025",
+          "systems": [
+            {
+              "size": "64751187",
+              "checksum": "SHA-256:f6f7da3b1260fcb253223168b319c4de29f91ae089df261beee1cca0d18dcccc",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-04022025.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-04022025/cba-sysroot-avr-04022025.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-avr-bfd",
+          "version": "2.43.1-04022025",
+          "systems": [
+            {
+              "size": "2207315",
+              "checksum": "SHA-256:06c2ee2445b6342cafff2cd24252c3e718d50967e97ae4dbd1f88f87af8c2424",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "bfd-avr-2.43.1-04022025-linux-glibc.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.43.1-04022025/bfd-avr-2.43.1-04022025-linux-glibc.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "avrdude",
+          "version": "6.3.0-arduino17",
+          "systems": [
+            {
+              "size": "219631",
+              "checksum": "SHA-256:2a8e68c5d803aa6f902ef219f177ec3a4c28275d85cbe272962ad2cd374f50d1",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrdude-6.3.0-arduino17-armhf-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino17-armhf-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "229852",
+              "checksum": "SHA-256:6cf948f751acfe7b96684537f2291c766ec8b54b4f7dc95539864821456fa9fc",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino17-aarch64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino17-aarch64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "279045",
+              "checksum": "SHA-256:120cc9edaae699e7e9ac50b1b8eb0e7d51fdfa555bac54233c2511e6ee5418c9",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "avrdude-6.3.0-arduino17-x86_64-apple-darwin12.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino17-x86_64-apple-darwin12.tar.bz2"
+            },
+            {
+              "size": "254271",
+              "checksum": "SHA-256:accdfb920af2aabf4f7461d2ac73c0751760f525216dc4e7657427a78c60d13d",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino17-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino17-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "244550",
+              "checksum": "SHA-256:5c8cc6c17db9300e1451fe41cd7178b0442b4490ee6fdbc0aed9811aef96c05f",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino17-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino17-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "328460",
+              "checksum": "SHA-256:e99188873c7c5ad8f8f906f068c33600e758b2e36cce3adbd518a21bd266749d",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude-6.3.0-arduino17-i686-w64-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino17-i686-w64-mingw32.zip"
+            }
+          ]
+        },
+        {
+          "name": "arduinoOTA",
+          "version": "1.3.0",
+          "systems": [
+            {
+              "size": "2633516",
+              "checksum": "SHA-256:3e7f59d6fbc7a724598303f0d3289d0c4fd137a8973437980658379a024887b2",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "arduinoOTA-1.3.0-linux_386.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.3.0-linux_386.tar.bz2"
+            },
+            {
+              "size": "2716248",
+              "checksum": "SHA-256:aa45ee2441ffc3a122daec5802941d1fa2ac47adf5c5c481b5e0daa4dc259ffa",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "arduinoOTA-1.3.0-linux_amd64.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.3.0-linux_amd64.tar.bz2"
+            },
+            {
+              "size": "2567435",
+              "checksum": "SHA-256:1888587409b56aef4ba0ab0e6703b3dccba7cc3a022756ba9b908247e5d5a656",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "arduinoOTA-1.3.0-linux_arm.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.3.0-linux_arm.tar.bz2"
+            },
+            {
+              "size": "2472427",
+              "checksum": "SHA-256:835ed8f37cffac37e979d1b0f6041559592d3d98be52f0e8611b76c4858e4113",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "arduinoOTA-1.3.0-linux_arm64.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.3.0-linux_arm64.tar.bz2"
+            },
+            {
+              "size": "2766116",
+              "checksum": "SHA-256:d5d0f82ff829c0e434d12a2ee640a6fbd78f893ab37782edbb8b5bf2359d119e",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "arduinoOTA-1.3.0-darwin_amd64.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.3.0-darwin_amd64.tar.bz2"
+            },
+            {
+              "size": "2768948",
+              "checksum": "SHA-256:051943844eee442460d2c709edefadca184287fffd2b6c100dd53aa742aa05f6",
+              "host": "i686-mingw32",
+              "archiveFileName": "arduinoOTA-1.3.0-windows_386.zip",
+              "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.3.0-windows_386.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,10 +13,10 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.0.0-05022025/cba-avr-1.0.0.tar.bz2",
+          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.0.0-12022025/cba-avr-1.0.0.tar.bz2",
           "archiveFileName": "cba-avr-1.0.0.tar.bz2",
-          "checksum": "SHA-256:b65af74267ab21fc7b605b55b3e909317f36180eb76df177a6b45169228f7b3a",
-          "size": "7139254",
+          "checksum": "SHA-256:dacc7cdd296fdfe7bc84a32886ec3ee0c139ecfa53844c77a983f419f1ee2fd4",
+          "size": "21614102",
           "boards": [
             {"name": "Arduino Yún"},
             {"name": "Arduino Uno"},

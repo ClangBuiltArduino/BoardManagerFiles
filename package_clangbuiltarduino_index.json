@@ -49,17 +49,22 @@
             {
               "packager": "ClangBuiltArduino",
               "name": "cba-llvm",
-              "version": "19.1.7-04022025"
+              "version": "20.1.0-rc1-12022025"
             },
             {
               "packager": "ClangBuiltArduino",
               "name": "cba-avr-sysroot",
-              "version": "04022025"
+              "version": "12022025"
             },
             {
               "packager": "ClangBuiltArduino",
               "name": "cba-avr-bfd",
-              "version": "2.43.1-04022025"
+              "version": "2.44-12022025"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvmgold",
+              "version": "20.1.0-rc1-12022025"
             },
             {
               "packager": "arduino",
@@ -77,40 +82,88 @@
       "tools": [
         {
           "name": "cba-llvm",
-          "version": "19.1.7-04022025",
+          "version": "20.1.0-rc1-12022025",
           "systems": [
             {
-              "size": "74439783",
-              "checksum": "SHA-256:c2e5bba743daceff2a13ea0433a45198efbe7d4bbc63d45609ec7870b31b7738",
+              "size": "37958333",
+              "checksum": "SHA-256:ca71db336d7541ab56e229c7702ea78d9b99cb08b03d69b6ee9bda5b3e53bc94",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "cba-llvm-19.1.7-04022025-amd64-linux.tar.gz",
-              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-19.1.7-04022025/cba-llvm-19.1.7-04022025-amd64-linux.tar.gz"
+              "archiveFileName": "cba-llvm-20.1.0-rc1-12022025-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-20.1.0-rc1-12022025/cba-llvm-20.1.0-rc1-12022025-amd64-linux.tar.gz"
             }
           ]
         },
         {
           "name": "cba-avr-sysroot",
-          "version": "04022025",
+          "version": "12022025",
           "systems": [
             {
-              "size": "64751187",
-              "checksum": "SHA-256:f6f7da3b1260fcb253223168b319c4de29f91ae089df261beee1cca0d18dcccc",
+              "size": "64745800",
+              "checksum": "SHA-256:7611b53172a878afc70aa99532fa81e2c7977f339e86db903ffb003604281c9f",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "cba-sysroot-avr-12022025-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-12022025/cba-sysroot-avr-12022025-any.tar.gz"
+            },
+            {
+              "size": "64745800",
+              "checksum": "SHA-256:7611b53172a878afc70aa99532fa81e2c7977f339e86db903ffb003604281c9f",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-12022025-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-12022025/cba-sysroot-avr-12022025-any.tar.gz"
+            },
+            {
+              "size": "64745800",
+              "checksum": "SHA-256:7611b53172a878afc70aa99532fa81e2c7977f339e86db903ffb003604281c9f",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "cba-sysroot-avr-12022025-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-12022025/cba-sysroot-avr-12022025-any.tar.gz"
+            },
+            {
+              "size": "64745800",
+              "checksum": "SHA-256:7611b53172a878afc70aa99532fa81e2c7977f339e86db903ffb003604281c9f",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "cba-sysroot-avr-04022025.tar.gz",
-              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-04022025/cba-sysroot-avr-04022025.tar.gz"
+              "archiveFileName": "cba-sysroot-avr-12022025-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-12022025/cba-sysroot-avr-12022025-any.tar.gz"
+            },
+            {
+              "size": "64745800",
+              "checksum": "SHA-256:7611b53172a878afc70aa99532fa81e2c7977f339e86db903ffb003604281c9f",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-12022025-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-12022025/cba-sysroot-avr-12022025-any.tar.gz"
+            },
+            {
+              "size": "64745800",
+              "checksum": "SHA-256:7611b53172a878afc70aa99532fa81e2c7977f339e86db903ffb003604281c9f",
+              "host": "i686-mingw32",
+              "archiveFileName": "cba-sysroot-avr-12022025-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-12022025/cba-sysroot-avr-12022025-any.tar.gz"
             }
           ]
         },
         {
           "name": "cba-avr-bfd",
-          "version": "2.43.1-04022025",
+          "version": "2.44-12022025",
           "systems": [
             {
-              "size": "2207315",
-              "checksum": "SHA-256:06c2ee2445b6342cafff2cd24252c3e718d50967e97ae4dbd1f88f87af8c2424",
+              "size": "2748912",
+              "checksum": "SHA-256:8820d42e1449a693eaed4ca693ce1897f04a0ef3878969f8363d5c4a6e5a7d01",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "bfd-avr-2.43.1-04022025-linux-glibc.tar.gz",
-              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.43.1-04022025/bfd-avr-2.43.1-04022025-linux-glibc.tar.gz"
+              "archiveFileName": "bfd-avr-2.44-12022025-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.44-12022025/bfd-avr-2.44-12022025-amd64-linux.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvmgold",
+          "version": "20.1.0-rc1-12022025",
+          "systems": [
+            {
+              "size": "38380377",
+              "checksum": "SHA-256:89b116547755941466e28e1571501e7236ad081711b15b3e4aa00d4b1fa88a83",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-llvm-gold-20.1.0-rc1-12022025-amd64-linux.tar.gz",
+              "url": "https://github.com//ClangBuiltArduino/tc-build/releases/download/llvm-20.1.0-rc1-12022025/cba-llvm-gold-20.1.0-rc1-12022025-amd64-linux.tar.gz"
             }
           ]
         },

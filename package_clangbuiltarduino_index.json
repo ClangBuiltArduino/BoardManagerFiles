@@ -18,32 +18,84 @@
           "checksum": "SHA-256:dacc7cdd296fdfe7bc84a32886ec3ee0c139ecfa53844c77a983f419f1ee2fd4",
           "size": "21614102",
           "boards": [
-            {"name": "Arduino Yún"},
-            {"name": "Arduino Uno"},
-            {"name": "Arduino Uno WiFi"},
-            {"name": "Arduino Diecimila"},
-            {"name": "Arduino Nano"},
-            {"name": "Arduino Mega"},
-            {"name": "Arduino MegaADK"},
-            {"name": "Arduino Leonardo"},
-            {"name": "Arduino Leonardo Ethernet"},
-            {"name": "Arduino Micro"},
-            {"name": "Arduino Esplora"},
-            {"name": "Arduino Mini"},
-            {"name": "Arduino Ethernet"},
-            {"name": "Arduino Fio"},
-            {"name": "Arduino BT"},
-            {"name": "Arduino LilyPadUSB"},
-            {"name": "Arduino Lilypad"},
-            {"name": "Arduino Pro"},
-            {"name": "Arduino ATMegaNG"},
-            {"name": "Arduino Robot Control"},
-            {"name": "Arduino Robot Motor"},
-            {"name": "Arduino Gemma"},
-            {"name": "Adafruit Circuit Playground"},
-            {"name": "Arduino Yún Mini"},
-            {"name": "Arduino Industrial 101"},
-            {"name": "Linino One"}
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
           ],
           "toolsDependencies": [
             {
@@ -88,32 +140,84 @@
           "checksum": "SHA-256:dacc7cdd296fdfe7bc84a32886ec3ee0c139ecfa53844c77a983f419f1ee2fd4",
           "size": "21614102",
           "boards": [
-            {"name": "Arduino Yún"},
-            {"name": "Arduino Uno"},
-            {"name": "Arduino Uno WiFi"},
-            {"name": "Arduino Diecimila"},
-            {"name": "Arduino Nano"},
-            {"name": "Arduino Mega"},
-            {"name": "Arduino MegaADK"},
-            {"name": "Arduino Leonardo"},
-            {"name": "Arduino Leonardo Ethernet"},
-            {"name": "Arduino Micro"},
-            {"name": "Arduino Esplora"},
-            {"name": "Arduino Mini"},
-            {"name": "Arduino Ethernet"},
-            {"name": "Arduino Fio"},
-            {"name": "Arduino BT"},
-            {"name": "Arduino LilyPadUSB"},
-            {"name": "Arduino Lilypad"},
-            {"name": "Arduino Pro"},
-            {"name": "Arduino ATMegaNG"},
-            {"name": "Arduino Robot Control"},
-            {"name": "Arduino Robot Motor"},
-            {"name": "Arduino Gemma"},
-            {"name": "Adafruit Circuit Playground"},
-            {"name": "Arduino Yún Mini"},
-            {"name": "Arduino Industrial 101"},
-            {"name": "Linino One"}
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
           ],
           "toolsDependencies": [
             {
@@ -158,32 +262,84 @@
           "checksum": "SHA-256:dacc7cdd296fdfe7bc84a32886ec3ee0c139ecfa53844c77a983f419f1ee2fd4",
           "size": "21614102",
           "boards": [
-            {"name": "Arduino Yún"},
-            {"name": "Arduino Uno"},
-            {"name": "Arduino Uno WiFi"},
-            {"name": "Arduino Diecimila"},
-            {"name": "Arduino Nano"},
-            {"name": "Arduino Mega"},
-            {"name": "Arduino MegaADK"},
-            {"name": "Arduino Leonardo"},
-            {"name": "Arduino Leonardo Ethernet"},
-            {"name": "Arduino Micro"},
-            {"name": "Arduino Esplora"},
-            {"name": "Arduino Mini"},
-            {"name": "Arduino Ethernet"},
-            {"name": "Arduino Fio"},
-            {"name": "Arduino BT"},
-            {"name": "Arduino LilyPadUSB"},
-            {"name": "Arduino Lilypad"},
-            {"name": "Arduino Pro"},
-            {"name": "Arduino ATMegaNG"},
-            {"name": "Arduino Robot Control"},
-            {"name": "Arduino Robot Motor"},
-            {"name": "Arduino Gemma"},
-            {"name": "Adafruit Circuit Playground"},
-            {"name": "Arduino Yún Mini"},
-            {"name": "Arduino Industrial 101"},
-            {"name": "Linino One"}
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
           ],
           "toolsDependencies": [
             {
@@ -217,6 +373,738 @@
               "version": "1.3.0"
             }
           ]
+        },
+        {
+          "name": "ClangBuiltArduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.0.0-12022025/cba-avr-1.0.0.tar.bz2",
+          "archiveFileName": "cba-avr-1.0.0.tar.bz2",
+          "checksum": "SHA-256:dacc7cdd296fdfe7bc84a32886ec3ee0c139ecfa53844c77a983f419f1ee2fd4",
+          "size": "21614102",
+          "boards": [
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvm",
+              "version": "22.1.4-26042026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-sysroot",
+              "version": "31052026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-bfd",
+              "version": "2.46.0-26042026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvmgold",
+              "version": "22.1.4-26042026"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "ClangBuiltArduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.4",
+          "category": "Contributed",
+          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.0.0-12022025/cba-avr-1.0.0.tar.bz2",
+          "archiveFileName": "cba-avr-1.0.0.tar.bz2",
+          "checksum": "SHA-256:dacc7cdd296fdfe7bc84a32886ec3ee0c139ecfa53844c77a983f419f1ee2fd4",
+          "size": "21614102",
+          "boards": [
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvm",
+              "version": "22.1.8-13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-sysroot",
+              "version": "13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-bfd",
+              "version": "2.47-13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvmgold",
+              "version": "22.1.8-13082026"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "ClangBuiltArduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.1.0/cba-avr-1.1.0.tar.bz2",
+          "archiveFileName": "cba-avr-1.1.0.tar.bz2",
+          "checksum": "SHA-256:1f888dd0ea18a7bb5353e8f39257a445376d2f259da644abf986c166252c7252",
+          "size": "7161190",
+          "boards": [
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvm",
+              "version": "22.1.8-13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-sysroot",
+              "version": "13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-bfd",
+              "version": "2.47-13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvmgold",
+              "version": "22.1.8-13082026"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "ClangBuiltArduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.1.1",
+          "category": "Contributed",
+          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.1.0/cba-avr-1.1.0.tar.bz2",
+          "archiveFileName": "cba-avr-1.1.0.tar.bz2",
+          "checksum": "SHA-256:1f888dd0ea18a7bb5353e8f39257a445376d2f259da644abf986c166252c7252",
+          "size": "7161190",
+          "boards": [
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvm",
+              "version": "22.1.8-13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-sysroot",
+              "version": "13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-bfd",
+              "version": "2.47-20082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvmgold",
+              "version": "22.1.8-13082026"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "ClangBuiltArduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.1.2",
+          "category": "Contributed",
+          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.1.0/cba-avr-1.1.0.tar.bz2",
+          "archiveFileName": "cba-avr-1.1.0.tar.bz2",
+          "checksum": "SHA-256:1f888dd0ea18a7bb5353e8f39257a445376d2f259da644abf986c166252c7252",
+          "size": "7161190",
+          "boards": [
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvm",
+              "version": "22.1.8-21082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-sysroot",
+              "version": "13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-bfd",
+              "version": "2.47-20082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvmgold",
+              "version": "22.1.8-21082026"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
+        },
+        {
+          "name": "ClangBuiltArduino AVR Boards",
+          "architecture": "avr",
+          "version": "1.1.3",
+          "category": "Contributed",
+          "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/1.1.0/cba-avr-1.1.0.tar.bz2",
+          "archiveFileName": "cba-avr-1.1.0.tar.bz2",
+          "checksum": "SHA-256:1f888dd0ea18a7bb5353e8f39257a445376d2f259da644abf986c166252c7252",
+          "size": "7161190",
+          "boards": [
+            {
+              "name": "Arduino Yún"
+            },
+            {
+              "name": "Arduino Uno"
+            },
+            {
+              "name": "Arduino Uno WiFi"
+            },
+            {
+              "name": "Arduino Diecimila"
+            },
+            {
+              "name": "Arduino Nano"
+            },
+            {
+              "name": "Arduino Mega"
+            },
+            {
+              "name": "Arduino MegaADK"
+            },
+            {
+              "name": "Arduino Leonardo"
+            },
+            {
+              "name": "Arduino Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino Micro"
+            },
+            {
+              "name": "Arduino Esplora"
+            },
+            {
+              "name": "Arduino Mini"
+            },
+            {
+              "name": "Arduino Ethernet"
+            },
+            {
+              "name": "Arduino Fio"
+            },
+            {
+              "name": "Arduino BT"
+            },
+            {
+              "name": "Arduino LilyPadUSB"
+            },
+            {
+              "name": "Arduino Lilypad"
+            },
+            {
+              "name": "Arduino Pro"
+            },
+            {
+              "name": "Arduino ATMegaNG"
+            },
+            {
+              "name": "Arduino Robot Control"
+            },
+            {
+              "name": "Arduino Robot Motor"
+            },
+            {
+              "name": "Arduino Gemma"
+            },
+            {
+              "name": "Adafruit Circuit Playground"
+            },
+            {
+              "name": "Arduino Yún Mini"
+            },
+            {
+              "name": "Arduino Industrial 101"
+            },
+            {
+              "name": "Linino One"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvm",
+              "version": "22.1.8-22082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-sysroot",
+              "version": "13082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-avr-bfd",
+              "version": "2.47-22082026"
+            },
+            {
+              "packager": "ClangBuiltArduino",
+              "name": "cba-llvmgold",
+              "version": "22.1.8-22082026"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ]
         }
       ],
       "tools": [
@@ -230,6 +1118,65 @@
               "host": "x86_64-linux-gnu",
               "archiveFileName": "cba-llvm-20.1.0-rc2-13022025-amd64-linux.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-20.1.0-rc2-13022025/cba-llvm-20.1.0-rc2-13022025-amd64-linux.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvm",
+          "version": "22.1.8-22082026",
+          "systems": [
+            {
+              "size": "61527192",
+              "checksum": "SHA-256:b296d68ef29789ed73c5a76877decfafbd834c8146a61622278967c475ccee21",
+              "archiveFileName": "cba-llvm-22.1.8-22082026-i686-windows.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.8-22082026/cba-llvm-22.1.8-22082026-i686-windows.tar.gz",
+              "host": "i686-mingw32"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvm",
+          "version": "22.1.8-21082026",
+          "systems": [
+            {
+              "size": "39544978",
+              "checksum": "SHA-256:3810efc7617701e52d93f64b3b2ac3c5bda26d9312b0100c4663d70cfde52941",
+              "archiveFileName": "cba-llvm-22.1.8-21082026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.8-21082026/cba-llvm-22.1.8-21082026-amd64-linux.tar.gz",
+              "host": "x86_64-linux-gnu"
+            },
+            {
+              "size": "37773054",
+              "checksum": "SHA-256:8e4e149f0e47dc0b42064221305e7828fd6c1c88e3cba9c1468713ae7abb3794",
+              "archiveFileName": "cba-llvm-22.1.8-21082026-aarch64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.8-21082026/cba-llvm-22.1.8-21082026-aarch64-linux.tar.gz",
+              "host": "aarch64-linux-gnu"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvm",
+          "version": "22.1.8-13082026",
+          "systems": [
+            {
+              "size": "39542300",
+              "checksum": "SHA-256:1bc941e292139361b662ee9ac2cf6616593d15f498f99f1e3b26727b7d8603e4",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-llvm-22.1.8-13082026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.8-13082026/cba-llvm-22.1.8-13082026-amd64-linux.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvm",
+          "version": "22.1.4-26042026",
+          "systems": [
+            {
+              "size": "39548142",
+              "checksum": "SHA-256:bcc6cdbbd6abf00db1d79c52130938ad6373a1556442f6fa78f900a4ecceb241",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-llvm-22.1.4-26042026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.4-26042026/cba-llvm-22.1.4-26042026-amd64-linux.tar.gz"
             }
           ]
         },
@@ -269,6 +1216,65 @@
               "host": "x86_64-linux-gnu",
               "archiveFileName": "cba-llvm-gold-20.1.0-rc2-13022025-amd64-linux.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-20.1.0-rc2-13022025/cba-llvm-gold-20.1.0-rc2-13022025-amd64-linux.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvmgold",
+          "version": "22.1.8-22082026",
+          "systems": [
+            {
+              "size": "25656059",
+              "checksum": "SHA-256:e7fcf568bc25dc056945cea39a17669a0cfa2ea93bbf84b64ca6502250ecafd4",
+              "archiveFileName": "cba-llvm-gold-22.1.8-22082026-i686-windows.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.8-22082026/cba-llvm-gold-22.1.8-22082026-i686-windows.tar.gz",
+              "host": "i686-mingw32"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvmgold",
+          "version": "22.1.8-21082026",
+          "systems": [
+            {
+              "size": "40436973",
+              "checksum": "SHA-256:ea8edfd3ad84e82b00d12f5089db5db6448aab2301c722f804920a26c23b99bc",
+              "archiveFileName": "cba-llvm-gold-22.1.8-21082026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.8-21082026/cba-llvm-gold-22.1.8-21082026-amd64-linux.tar.gz",
+              "host": "x86_64-linux-gnu"
+            },
+            {
+              "size": "38695615",
+              "checksum": "SHA-256:5726c8219e1c9aa9386cd317add7ec7cb50f09271b0ec68c4911936b735312d7",
+              "archiveFileName": "cba-llvm-gold-22.1.8-21082026-aarch64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.8-21082026/cba-llvm-gold-22.1.8-21082026-aarch64-linux.tar.gz",
+              "host": "aarch64-linux-gnu"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvmgold",
+          "version": "22.1.8-13082026",
+          "systems": [
+            {
+              "size": "40436975",
+              "checksum": "SHA-256:ee0dca47e4f3d7f9a4d2b2e358491313685f8cce42b8f0a9eb1013167212bda7",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-llvm-gold-22.1.8-13082026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.8-13082026/cba-llvm-gold-22.1.8-13082026-amd64-linux.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-llvmgold",
+          "version": "22.1.4-26042026",
+          "systems": [
+            {
+              "size": "40436777",
+              "checksum": "SHA-256:1284977045cc23361dda6301006e7e4ae1b0ba650f8c9c810ae180d51e3395cc",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-llvm-gold-22.1.4-26042026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/llvm-22.1.4-26042026/cba-llvm-gold-22.1.4-26042026-amd64-linux.tar.gz"
             }
           ]
         },
@@ -348,6 +1354,102 @@
         },
         {
           "name": "cba-avr-sysroot",
+          "version": "13082026",
+          "systems": [
+            {
+              "size": "72888749",
+              "checksum": "SHA-256:7c53a5f093a0ccbe919ed8f9843f9e267cf34bf69e695c6e368a8bafc5f08ea7",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "cba-sysroot-avr-13082026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-13082026/cba-sysroot-avr-13082026-any.tar.gz"
+            },
+            {
+              "size": "72888749",
+              "checksum": "SHA-256:7c53a5f093a0ccbe919ed8f9843f9e267cf34bf69e695c6e368a8bafc5f08ea7",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-13082026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-13082026/cba-sysroot-avr-13082026-any.tar.gz"
+            },
+            {
+              "size": "72888749",
+              "checksum": "SHA-256:7c53a5f093a0ccbe919ed8f9843f9e267cf34bf69e695c6e368a8bafc5f08ea7",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "cba-sysroot-avr-13082026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-13082026/cba-sysroot-avr-13082026-any.tar.gz"
+            },
+            {
+              "size": "72888749",
+              "checksum": "SHA-256:7c53a5f093a0ccbe919ed8f9843f9e267cf34bf69e695c6e368a8bafc5f08ea7",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-13082026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-13082026/cba-sysroot-avr-13082026-any.tar.gz"
+            },
+            {
+              "size": "72888749",
+              "checksum": "SHA-256:7c53a5f093a0ccbe919ed8f9843f9e267cf34bf69e695c6e368a8bafc5f08ea7",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-13082026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-13082026/cba-sysroot-avr-13082026-any.tar.gz"
+            },
+            {
+              "size": "72888749",
+              "checksum": "SHA-256:7c53a5f093a0ccbe919ed8f9843f9e267cf34bf69e695c6e368a8bafc5f08ea7",
+              "host": "i686-mingw32",
+              "archiveFileName": "cba-sysroot-avr-13082026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-13082026/cba-sysroot-avr-13082026-any.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-avr-sysroot",
+          "version": "31052026",
+          "systems": [
+            {
+              "size": "71175889",
+              "checksum": "SHA-256:e230669ebb3755e7eda3fd1744b6ac2e3f64276db16a38e76c702ae6723c6423",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "cba-sysroot-avr-31052026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-31052026/cba-sysroot-avr-31052026-any.tar.gz"
+            },
+            {
+              "size": "71175889",
+              "checksum": "SHA-256:e230669ebb3755e7eda3fd1744b6ac2e3f64276db16a38e76c702ae6723c6423",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-31052026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-31052026/cba-sysroot-avr-31052026-any.tar.gz"
+            },
+            {
+              "size": "71175889",
+              "checksum": "SHA-256:e230669ebb3755e7eda3fd1744b6ac2e3f64276db16a38e76c702ae6723c6423",
+              "host": "x86_64-apple-darwin12",
+              "archiveFileName": "cba-sysroot-avr-31052026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-31052026/cba-sysroot-avr-31052026-any.tar.gz"
+            },
+            {
+              "size": "71175889",
+              "checksum": "SHA-256:e230669ebb3755e7eda3fd1744b6ac2e3f64276db16a38e76c702ae6723c6423",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-31052026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-31052026/cba-sysroot-avr-31052026-any.tar.gz"
+            },
+            {
+              "size": "71175889",
+              "checksum": "SHA-256:e230669ebb3755e7eda3fd1744b6ac2e3f64276db16a38e76c702ae6723c6423",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "cba-sysroot-avr-31052026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-31052026/cba-sysroot-avr-31052026-any.tar.gz"
+            },
+            {
+              "size": "71175889",
+              "checksum": "SHA-256:e230669ebb3755e7eda3fd1744b6ac2e3f64276db16a38e76c702ae6723c6423",
+              "host": "i686-mingw32",
+              "archiveFileName": "cba-sysroot-avr-31052026-any.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/sysroot-avr-31052026/cba-sysroot-avr-31052026-any.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-avr-sysroot",
           "version": "28122025",
           "systems": [
             {
@@ -404,6 +1506,65 @@
               "host": "x86_64-linux-gnu",
               "archiveFileName": "bfd-avr-2.44-14022025-amd64-linux.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.44-14022025/bfd-avr-2.44-14022025-amd64-linux.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-avr-bfd",
+          "version": "2.47-22082026",
+          "systems": [
+            {
+              "size": "72835",
+              "checksum": "SHA-256:e603ab8b7859dde1d732901972acd87ef74340d75f6cb2d61c53f86a14c1b401",
+              "archiveFileName": "bfd-avr-2.47-22082026-i686-windows.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.47-22082026/bfd-avr-2.47-22082026-i686-windows.tar.gz",
+              "host": "i686-mingw32"
+            }
+          ]
+        },
+        {
+          "name": "cba-avr-bfd",
+          "version": "2.47-20082026",
+          "systems": [
+            {
+              "size": "2811783",
+              "checksum": "SHA-256:a1516cc8a48dc38482d52e4ac732365afde395b5df667c917dcd15e53e89e440",
+              "archiveFileName": "bfd-avr-2.47-20082026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.47-20082026/bfd-avr-2.47-20082026-amd64-linux.tar.gz",
+              "host": "x86_64-linux-gnu"
+            },
+            {
+              "size": "2647998",
+              "checksum": "SHA-256:1f3b7421ef09cd639a6565c4b24b7bb0cc8fd64467674ba05e390ed31e709966",
+              "archiveFileName": "bfd-avr-2.47-20082026-aarch64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.47-20082026/bfd-avr-2.47-20082026-aarch64-linux.tar.gz",
+              "host": "aarch64-linux-gnu"
+            }
+          ]
+        },
+        {
+          "name": "cba-avr-bfd",
+          "version": "2.47-13082026",
+          "systems": [
+            {
+              "size": "2816860",
+              "checksum": "SHA-256:4f19f502cf98ac9cc96a5db6a43448890cea0b01c4dc6331df4334bed66e54a1",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "bfd-avr-2.47-13082026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.47-13082026/bfd-avr-2.47-13082026-amd64-linux.tar.gz"
+            }
+          ]
+        },
+        {
+          "name": "cba-avr-bfd",
+          "version": "2.46.0-26042026",
+          "systems": [
+            {
+              "size": "2868974",
+              "checksum": "SHA-256:e9eeefbb47137242434566b1006fdd699a3eb0bc6b5cee9a180472153c8753b9",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "bfd-avr-2.46.0-26042026-amd64-linux.tar.gz",
+              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.46.0-26042026/bfd-avr-2.46.0-26042026-amd64-linux.tar.gz"
             }
           ]
         },

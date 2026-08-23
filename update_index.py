@@ -124,6 +124,13 @@ HOST_SUFFIXES = {
 }
 
 
+def _host_patterns(prefix):
+    """Asset patterns requiring one archive per host, so releases missing a
+    host never become index-visible (they stay split until complete)."""
+    return [rf"^{prefix}-\d.*-{re.escape(suffix)}\.tar\.gz$"
+            for suffix in HOST_SUFFIXES]
+
+
 class Tool:
     """One board-manager tool dependency and how to resolve its artifacts.
 
@@ -131,7 +138,7 @@ class Tool:
     suffix per host (sysroot is a single '-any' archive for all hosts)."""
 
     def __init__(self, name, tag_regex, version_from_tag, archive_prefix,
-                 pair_prefix=None, all_hosts=False):
+                 pair_prefix=None, all_hosts=False, asset_patterns=()):
         self.name = name
         self.tag_regex = tag_regex
         self.version_from_tag = version_from_tag
@@ -140,6 +147,7 @@ class Tool:
         # one (clang and gold come from the same LLVM release).
         self.pair_prefix = pair_prefix
         self.all_hosts = all_hosts
+        self.asset_patterns = tuple(asset_patterns)
 
     def _archives(self, version):
         if self.all_hosts:
@@ -161,7 +169,7 @@ class Tool:
         checksum}]} or None."""
         present = None
         if version is None:
-            rel = latest_release(TC_REPO, self.tag_regex)
+            rel = latest_release(TC_REPO, self.tag_regex, self.asset_patterns)
             if not rel:
                 log(f"  {self.name}: no matching tc-build release")
                 return None
@@ -199,16 +207,20 @@ class Tool:
 STABLE_TOOLS = {
     "cba-llvm": Tool("cba-llvm", r"^llvm-\d",
                      lambda tag: tag.removeprefix("llvm-"),
-                     "cba-llvm", pair_prefix="cba-llvm-gold-"),
+                     "cba-llvm", pair_prefix="cba-llvm-gold-",
+                     asset_patterns=_host_patterns("cba-llvm")),
     "cba-llvmgold": Tool("cba-llvmgold", r"^llvm-\d",
                          lambda tag: tag.removeprefix("llvm-"),
-                         "cba-llvm-gold", pair_prefix="cba-llvm-"),
+                         "cba-llvm-gold", pair_prefix="cba-llvm-",
+                         asset_patterns=_host_patterns("cba-llvm-gold")),
     "cba-avr-sysroot": Tool("cba-avr-sysroot", r"^sysroot-avr-\d",
                             lambda tag: tag.removeprefix("sysroot-avr-"),
-                            "cba-sysroot-avr", all_hosts=True),
+                            "cba-sysroot-avr", all_hosts=True,
+                            asset_patterns=(r"^cba-sysroot-avr-.*-any\.tar\.gz$",)),
     "cba-avr-bfd": Tool("cba-avr-bfd", r"^bfd-\d",
                         lambda tag: tag.removeprefix("bfd-"),
-                        "bfd-avr"),
+                        "bfd-avr",
+                        asset_patterns=_host_patterns("bfd-avr")),
 }
 
 # Nightly tools live in one rolling `nightly` release of tc-build with fixed

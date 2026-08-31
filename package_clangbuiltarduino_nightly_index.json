@@ -156,13 +156,6 @@
               "archiveFileName": "bfd-avr-2.47-23082026-i686-windows.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.47-23082026/bfd-avr-2.47-23082026-i686-windows.tar.gz",
               "host": "i686-mingw32"
-            },
-            {
-              "size": "803638",
-              "checksum": "SHA-256:fdc52e0d89985f2e899e44268eb2163de6f4bae52fc8dbe155efaaed33f9330b",
-              "archiveFileName": "bfd-avr-2.47-23082026-x86_64-darwin.tar.gz",
-              "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/bfd-2.47-23082026/bfd-avr-2.47-23082026-x86_64-darwin.tar.gz",
-              "host": "x86_64-apple-darwin12"
             }
           ]
         },
@@ -240,8 +233,8 @@
               "host": "i686-mingw32"
             },
             {
-              "size": "20450007",
-              "checksum": "SHA-256:858911272cbf0c801bd3b1fd0e605c94588760243cab06654d2bc44a44e72279",
+              "size": "20422058",
+              "checksum": "SHA-256:46a30bd336f497717f7d2a9d956358f2fb40173a2276d22ce72c7ba575d16cdb",
               "archiveFileName": "cba-llvm-gold-nightly-x86_64-darwin.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-gold-nightly-x86_64-darwin.tar.gz",
               "host": "x86_64-apple-darwin12"
@@ -274,8 +267,8 @@
               "host": "i686-mingw32"
             },
             {
-              "size": "65649318",
-              "checksum": "SHA-256:544f35b773dffb14cfa8b2e36e586df9497d48a849b2eb0dcc268ec2949a2a04",
+              "size": "65622251",
+              "checksum": "SHA-256:5f1fb9e4c0672e8e5966d2d9b06f6147c1c744231d00f613142ee7d39fc6747c",
               "archiveFileName": "cba-llvm-nightly-x86_64-darwin.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-nightly-x86_64-darwin.tar.gz",
               "host": "x86_64-apple-darwin12"

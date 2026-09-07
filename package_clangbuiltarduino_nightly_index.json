@@ -240,8 +240,8 @@
               "host": "i686-mingw32"
             },
             {
-              "size": "20478103",
-              "checksum": "SHA-256:cc960c1f84e36c6d18370912966ec39dec791c062ae6ab88a7d8d8cb56a52754",
+              "size": "20480869",
+              "checksum": "SHA-256:cd67034b7c857c834a9a29b8229eedcb32505438f18841b192e6155a7a64a5f6",
               "archiveFileName": "cba-llvm-gold-nightly-x86_64-darwin.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-gold-nightly-x86_64-darwin.tar.gz",
               "host": "x86_64-apple-darwin12"
@@ -274,8 +274,8 @@
               "host": "i686-mingw32"
             },
             {
-              "size": "65780487",
-              "checksum": "SHA-256:3438a99cf53012058428cd7bb1eae8e4c226daa81d85669f68bb48b9923af569",
+              "size": "65779859",
+              "checksum": "SHA-256:d782be3f084876efc4a3c1526f041d1ae17d2c30b6206f01af32ed5102319da9",
               "archiveFileName": "cba-llvm-nightly-x86_64-darwin.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-nightly-x86_64-darwin.tar.gz",
               "host": "x86_64-apple-darwin12"

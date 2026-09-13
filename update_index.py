@@ -20,6 +20,11 @@ TC_REPO = "tc-build"
 STABLE_INDEX = "package_clangbuiltarduino_index.json"
 NIGHTLY_INDEX = "package_clangbuiltarduino_nightly_index.json"
 
+# The nightly channel is a separate package so the stable and nightly cores
+# can be installed side by side (the board manager keys packages by name).
+NIGHTLY_PACKAGER = "ClangBuiltArduinoNightly"
+NIGHTLY_PLATFORM_NAME = "ClangBuiltArduino AVR Boards (Nightly)"
+
 # Hosts listed for each tool in the index.
 SYSROOT_HOSTS = [
     "arm-linux-gnueabihf",
@@ -402,7 +407,7 @@ def validate(path):
             if not platform.get(key):
                 raise SystemExit(f"platform {platform.get('version')} missing {key}")
         for dep in platform["toolsDependencies"]:
-            if dep["packager"] != ORG:
+            if dep["packager"] != pkg["name"]:
                 continue
             dep_id = (dep["name"], dep["version"])
             if dep_id not in tool_ids:
@@ -489,6 +494,9 @@ def update_nightly():
     path = NIGHTLY_INDEX
     data = load_index(path)
     pkg = data["packages"][0]
+    # The nightly index is its own package; keep the identity intact even if
+    # the file was seeded from the stable index.
+    pkg["name"] = NIGHTLY_PACKAGER
 
     log("resolving nightly core...")
     rel = find_core_release(nightly=True)
@@ -514,14 +522,20 @@ def update_nightly():
 
     # The nightly platform is installable only once every ClangBuiltArduino
     # tool dependency has a build in this index, so wait for the full set.
+    # Select by tool name: the base platform may come from the stable index,
+    # whose deps carry the stable packager name.
     cba_deps = [d["name"] for d in base["toolsDependencies"]
-                if d["packager"] == ORG]
+                if d["name"] in STABLE_TOOLS]
     missing = [n for n in cba_deps if n not in tools]
     if core and missing:
         log(f"nightly platform waiting for tool builds: {', '.join(missing)}")
     elif core:
         deps = {name: tools[name]["version"] for name in cba_deps}
         platform = new_platform(base, core["version"], deps, core)
+        platform["name"] = NIGHTLY_PLATFORM_NAME
+        for dep in platform["toolsDependencies"]:
+            if dep["name"] in STABLE_TOOLS:
+                dep["packager"] = NIGHTLY_PACKAGER
         pkg["platforms"] = [platform]
         log(f"  nightly platform {core['version']}")
 

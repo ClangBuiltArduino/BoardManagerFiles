@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "ClangBuiltArduino",
+      "name": "ClangBuiltArduinoNightly",
       "maintainer": "ClangBuiltArduino",
       "websiteURL": "https://github.com/ClangBuiltArduino",
       "help": {
@@ -9,7 +9,7 @@
       },
       "platforms": [
         {
-          "name": "ClangBuiltArduino AVR Boards",
+          "name": "ClangBuiltArduino AVR Boards (Nightly)",
           "architecture": "avr",
           "version": "0.20260913.0",
           "category": "Contributed",
@@ -99,22 +99,22 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "ClangBuiltArduino",
+              "packager": "ClangBuiltArduinoNightly",
               "name": "cba-llvm",
               "version": "nightly-13092026"
             },
             {
-              "packager": "ClangBuiltArduino",
+              "packager": "ClangBuiltArduinoNightly",
               "name": "cba-avr-sysroot",
               "version": "nightly-13092026"
             },
             {
-              "packager": "ClangBuiltArduino",
+              "packager": "ClangBuiltArduinoNightly",
               "name": "cba-avr-bfd",
               "version": "2.47-23082026"
             },
             {
-              "packager": "ClangBuiltArduino",
+              "packager": "ClangBuiltArduinoNightly",
               "name": "cba-llvmgold",
               "version": "nightly-13092026"
             },

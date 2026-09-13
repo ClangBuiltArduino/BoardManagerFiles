@@ -13,8 +13,12 @@ Add the URL(s) under *Additional boards manager URLs* in the Arduino IDE, or:
 
 ```bash
 arduino-cli core update-index --additional-urls "<url>"
-arduino-cli core install ClangBuiltArduino:avr --additional-urls "<url>"
+arduino-cli core install ClangBuiltArduino:avr --additional-urls "<url>"        # stable
+arduino-cli core install ClangBuiltArduinoNightly:avr --additional-urls "<url>" # nightly
 ```
+
+The nightly index is a separate package (`ClangBuiltArduinoNightly`), so the
+stable and nightly cores can be installed side by side.
 
 ## How the index stays fresh
 

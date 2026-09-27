@@ -11,12 +11,12 @@
         {
           "name": "ClangBuiltArduino AVR Boards (Nightly)",
           "architecture": "avr",
-          "version": "0.20260926.0",
+          "version": "0.20260927.0",
           "category": "Contributed",
           "url": "https://github.com/ClangBuiltArduino/core_arduino_avr/releases/download/nightly/cba-avr-nightly.tar.bz2",
           "archiveFileName": "cba-avr-nightly.tar.bz2",
-          "checksum": "SHA-256:2f983bb0025d16cd4e9601297f4ac4107dcb9f3cc5122e53c7a11ebe00ae6cb6",
-          "size": "7226944",
+          "checksum": "SHA-256:253671a0bca3d4aa4b647ef1ccd30e75b3b3f606b07947ffc093e8d6f815c98a",
+          "size": "7227301",
           "boards": [
             {
               "name": "Arduino Yún"

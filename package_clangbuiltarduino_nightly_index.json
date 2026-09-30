@@ -106,7 +106,7 @@
             {
               "packager": "ClangBuiltArduinoNightly",
               "name": "cba-avr-sysroot",
-              "version": "nightly-29092026"
+              "version": "nightly-30092026"
             },
             {
               "packager": "ClangBuiltArduinoNightly",
@@ -168,46 +168,46 @@
         },
         {
           "name": "cba-avr-sysroot",
-          "version": "nightly-29092026",
+          "version": "nightly-30092026",
           "systems": [
             {
-              "size": "72937071",
-              "checksum": "SHA-256:4bfd7c19b1f532f4eb1cbabefa393757bec625a4779e69242cb1365e0c21210b",
+              "size": "72933196",
+              "checksum": "SHA-256:37e72be29f203cbaf5b1f01723f3f3927b3fe70e935e1901bbdff2b524e0ea75",
               "archiveFileName": "cba-sysroot-avr-nightly-any.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-sysroot-avr-nightly-any.tar.gz",
               "host": "arm-linux-gnueabihf"
             },
             {
-              "size": "72937071",
-              "checksum": "SHA-256:4bfd7c19b1f532f4eb1cbabefa393757bec625a4779e69242cb1365e0c21210b",
+              "size": "72933196",
+              "checksum": "SHA-256:37e72be29f203cbaf5b1f01723f3f3927b3fe70e935e1901bbdff2b524e0ea75",
               "archiveFileName": "cba-sysroot-avr-nightly-any.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-sysroot-avr-nightly-any.tar.gz",
               "host": "aarch64-linux-gnu"
             },
             {
-              "size": "72937071",
-              "checksum": "SHA-256:4bfd7c19b1f532f4eb1cbabefa393757bec625a4779e69242cb1365e0c21210b",
+              "size": "72933196",
+              "checksum": "SHA-256:37e72be29f203cbaf5b1f01723f3f3927b3fe70e935e1901bbdff2b524e0ea75",
               "archiveFileName": "cba-sysroot-avr-nightly-any.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-sysroot-avr-nightly-any.tar.gz",
               "host": "x86_64-apple-darwin12"
             },
             {
-              "size": "72937071",
-              "checksum": "SHA-256:4bfd7c19b1f532f4eb1cbabefa393757bec625a4779e69242cb1365e0c21210b",
+              "size": "72933196",
+              "checksum": "SHA-256:37e72be29f203cbaf5b1f01723f3f3927b3fe70e935e1901bbdff2b524e0ea75",
               "archiveFileName": "cba-sysroot-avr-nightly-any.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-sysroot-avr-nightly-any.tar.gz",
               "host": "x86_64-linux-gnu"
             },
             {
-              "size": "72937071",
-              "checksum": "SHA-256:4bfd7c19b1f532f4eb1cbabefa393757bec625a4779e69242cb1365e0c21210b",
+              "size": "72933196",
+              "checksum": "SHA-256:37e72be29f203cbaf5b1f01723f3f3927b3fe70e935e1901bbdff2b524e0ea75",
               "archiveFileName": "cba-sysroot-avr-nightly-any.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-sysroot-avr-nightly-any.tar.gz",
               "host": "i686-linux-gnu"
             },
             {
-              "size": "72937071",
-              "checksum": "SHA-256:4bfd7c19b1f532f4eb1cbabefa393757bec625a4779e69242cb1365e0c21210b",
+              "size": "72933196",
+              "checksum": "SHA-256:37e72be29f203cbaf5b1f01723f3f3927b3fe70e935e1901bbdff2b524e0ea75",
               "archiveFileName": "cba-sysroot-avr-nightly-any.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-sysroot-avr-nightly-any.tar.gz",
               "host": "i686-mingw32"

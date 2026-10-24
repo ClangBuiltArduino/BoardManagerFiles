@@ -101,7 +101,7 @@
             {
               "packager": "ClangBuiltArduinoNightly",
               "name": "cba-llvm",
-              "version": "nightly-23102026"
+              "version": "nightly-24102026"
             },
             {
               "packager": "ClangBuiltArduinoNightly",
@@ -116,7 +116,7 @@
             {
               "packager": "ClangBuiltArduinoNightly",
               "name": "cba-llvmgold",
-              "version": "nightly-23102026"
+              "version": "nightly-24102026"
             },
             {
               "packager": "arduino",
@@ -216,18 +216,18 @@
         },
         {
           "name": "cba-llvmgold",
-          "version": "nightly-23102026",
+          "version": "nightly-24102026",
           "systems": [
             {
-              "size": "41674046",
-              "checksum": "SHA-256:9e100a1783888009f4b929570a69c846a2c1579d6bf29caa97c26aa1f66cc7f7",
+              "size": "41697095",
+              "checksum": "SHA-256:523391ddde510e8b20210de7992654c54521e5280028b0feb2a2748d1dd728e6",
               "archiveFileName": "cba-llvm-gold-nightly-amd64-linux.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-gold-nightly-amd64-linux.tar.gz",
               "host": "x86_64-linux-gnu"
             },
             {
-              "size": "39975382",
-              "checksum": "SHA-256:71390ccff763ebc2ee2d26e7fd32f7236a73f5d95def551791c04d9d4e7edd81",
+              "size": "39995224",
+              "checksum": "SHA-256:03b04b91632b13e7e7b06d802f8c6c9a60cd0c916a1129e23f92792dec33d75e",
               "archiveFileName": "cba-llvm-gold-nightly-aarch64-linux.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-gold-nightly-aarch64-linux.tar.gz",
               "host": "aarch64-linux-gnu"
@@ -250,18 +250,18 @@
         },
         {
           "name": "cba-llvm",
-          "version": "nightly-23102026",
+          "version": "nightly-24102026",
           "systems": [
             {
-              "size": "45940174",
-              "checksum": "SHA-256:e4b37f87e0a80ea936235e873da4c9933bf6dd124b583e0d92f8323df51019ea",
+              "size": "45967783",
+              "checksum": "SHA-256:e907327e15041ea737d7a293a7d7607ae56d243ed872a8c24a5b0e3077a6aab1",
               "archiveFileName": "cba-llvm-nightly-amd64-linux.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-nightly-amd64-linux.tar.gz",
               "host": "x86_64-linux-gnu"
             },
             {
-              "size": "43911470",
-              "checksum": "SHA-256:acaef470ccc9dcfba0d8365279ac1502beed60315a28ef79459be42a2356a332",
+              "size": "43932486",
+              "checksum": "SHA-256:dd41254e3655fa15047ae97f8ef684bfc2489b7e1bbdab9c82e354aad44901d7",
               "archiveFileName": "cba-llvm-nightly-aarch64-linux.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-nightly-aarch64-linux.tar.gz",
               "host": "aarch64-linux-gnu"

@@ -233,8 +233,8 @@
               "host": "aarch64-linux-gnu"
             },
             {
-              "size": "25911124",
-              "checksum": "SHA-256:a9088ef2e2a3440e6b8f4c384818af6a894764d09052151b76672a03d446eee9",
+              "size": "25926793",
+              "checksum": "SHA-256:671fda9aa6cb7e61671abe5d4639ff520bbbb612cfc12d5cdc4f5a7e59777068",
               "archiveFileName": "cba-llvm-gold-nightly-i686-windows.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-gold-nightly-i686-windows.tar.gz",
               "host": "i686-mingw32"
@@ -267,8 +267,8 @@
               "host": "aarch64-linux-gnu"
             },
             {
-              "size": "99530103",
-              "checksum": "SHA-256:1efa7bf58d709b7e7d70fbc2cfa2c284b89292b4c5f9880b1b0ce8ecfc383334",
+              "size": "99601956",
+              "checksum": "SHA-256:349e32a871a28e12a9ffbc32241f04b3c2cbd3730475dcb6125aa5cd58023a01",
               "archiveFileName": "cba-llvm-nightly-i686-windows.tar.gz",
               "url": "https://github.com/ClangBuiltArduino/tc-build/releases/download/nightly/cba-llvm-nightly-i686-windows.tar.gz",
               "host": "i686-mingw32"
